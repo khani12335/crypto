@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('images.jpg') ;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+     /* Semi-transparent background for content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    background: none;
+   border-radius: 10px;
+    color: #fff;
+    padding: 5px 3px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.content {  
+    margin-top: 50px;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.content h1 span {
+    color: #ff9000;
+}
+
+.content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+.content a span{
+    background-color: #ff9000;
+    padding: 5px 20px;
+    
+}
+.coin-left {
+    display: flex;
+    justify-content: right;
+    margin-top: 70px;
+}
+
+.coin {
+    
+    padding: 10px 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    
+}
+
+.coin img {
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.coin h5 {
+    margin: 0;
+    font-size: 1.0em;
+}
+
+.coin p {
+    margin: 0;
+    font-size: 1em;
+    color: #ff9000;
+}
+#footer{
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+#soical{
+    width: 300px;
+    height: 100px;
+    line-height: 70px;
+    position: absolute;
+    padding-left: 10px;
+}
+.soical img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
